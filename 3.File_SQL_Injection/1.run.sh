@@ -1,3 +1,3 @@
 #/bin/bash
 
-docker run -d -p 8080:80 prob2
+docker run -d -p 8080:80 prob3
