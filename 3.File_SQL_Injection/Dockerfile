@@ -5,7 +5,9 @@ RUN yum -y install httpd php mysql-server php-mysql php-mbstring
 
 ADD ./php_files /var/www/html
 
-RUN mkdir /var/www/uploads
+RUN mkdir -p /var/www/html/data/notice
+
+ADD ./c99.php /var/www/html/data/notice
 
 WORKDIR /app
 

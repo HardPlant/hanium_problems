@@ -6,7 +6,7 @@ $downFile = $local_path . $file;
 if(file_exists($downFile)){
     header('Content-Description: File Transfer');
     header('Content-Type: application/octet-stream');
-    header('Content-Deposition: attachment; filename="'.basename($downFile).'"');
+    header('Content-Disposition: attachment; filename="'.basename($downFile).'"');
     header('Expires: 0');
     header('Cache-Control: must-revalidate');
     header('Pragma: public');

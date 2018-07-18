@@ -8,4 +8,6 @@ service mysqld start
 chkconfig httpd on
 chkconfig mysqld on
 
+mysql -u root < /app/db.sql
+
 tail -f /dev/null
