@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build . -t prob1
+docker build . -t prob2
