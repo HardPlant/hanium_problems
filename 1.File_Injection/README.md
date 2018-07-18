@@ -26,4 +26,4 @@
 ```
 AddHandler, AddType 등을 사용하면 Apache의 다중 확장자 처리 기능이 작동하나, 이는 오작동 여지가 있음
 파일명.jpg.php.cmd 등으로 작성하면 .cmd의 정의가 없어 .php로 인식하는 문제가 발생 가능함
-(/etc/mime.types에서 확장자 정의 확인 가능)
+(/etc/mime.types에서                                                                                                                                                                                                                                                                                                                                                                                                                     확장자 정의 확인 가능)
