@@ -1,6 +1,6 @@
 <?php
 $file = $_GET['file'];
-$local_path = '/var/www/uploads';
+$local_path = '/var/www/uploads/';
 $downFile = $local_path . $file;
 
 if(file_exists($downFile)){
@@ -14,6 +14,6 @@ if(file_exists($downFile)){
     readfile($downFile);
     exit;
 } else {
-    die('Error: The file ' . $file . 'does not exists!');
+    die('Error: The file ' . $file . ' does not exists!');
 }
 ?>
